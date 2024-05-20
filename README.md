@@ -20,3 +20,35 @@ Soft Gray and Ivory White work well for the main background and sections to keep
 Charcoal is perfect for text, icons, and other elements where readability is key.
 Sunset Orange and Golden Yellow can be used sparingly for call-to-action buttons, highlights, and other elements you want to draw attention to.
 This palette ensures a balance between modern urban vibes and a touch of nature, creating a harmonious and appealing look for "UrbanUtopia."
+
+
+
+# My Project
+
+This project uses OpenAPI specifications for the API.
+
+## OpenAPI Specification
+
+You can view the OpenAPI specification below:
+
+```yaml
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: API description in Markdown.
+  version: 1.0.0
+servers:
+  - url: https://api.example.com/v1
+paths:
+  /users:
+    get:
+      summary: Returns a list of users.
+      responses:
+        '200':
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                  type: string
